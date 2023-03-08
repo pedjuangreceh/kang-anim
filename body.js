@@ -11,7 +11,7 @@ var sortby = 'date'; /* 'date' OR 'title' */
 
 
 var start = 1,
-    max = 150,
+    max = 30,
     sitemap6Arr = new Array();
 
 function runSitemap6() {
@@ -56,7 +56,7 @@ function sitemap6(_0x6718x7) {
             for (var _0x6718x12 = 0; _0x6718x12 < _0x6718x10.length; _0x6718x12++) {
                 _0x6718xf += '<li><a href="' + _0x6718x10[_0x6718x12].url + '" title="' + _0x6718x10[_0x6718x12].judul + '">' + _0x6718x10[_0x6718x12].judul + '</a></li>'
             };
-            _0x6718x8.innerHTML = '<div class="ignielRelatedMiddle"><span class="judul"><span>Baca Juga</span></span><ul>' + _0x6718xf + '</ul></div>'
+            _0x6718x8.innerHTML = '<div class="ignielRelatedMiddle"><span class="judul"><span>Mungkin Kamu Juga Suka</span></span><ul>' + _0x6718xf + '</ul></div>'
         }
     }
 }
